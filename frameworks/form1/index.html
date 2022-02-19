@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <title>FORMULARIO</title>
+
+</head>
+<body>
+
+    <h1>Formuilario</h1>
+    
+    <form name="dados" id="dados" method="post" action=""> 
+        <div>
+            <label for="user">Usuário: </label>
+            <input type="text" name="user" id="user"  
+            placeholder="Ex: Roberto da Silva" 
+            maxlength="20"
+            minlength="5"
+            required>
+        </div>
+
+        <div>
+            <label for="senha">Senha: </label>
+            <input type="password" name="senha" id="senha"
+            placeholder="Ex: 123456"
+            maxlength="20"
+            minlength="8"
+            required>
+
+        </div>
+
+        <div>
+            <label for="dataCadastro">Data de Cadastro: </label>
+            <input type="date" name="dataCadastro" id="dataCadastro"
+            required>
+
+        </div>
+
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email"
+            placeholder="Ex: seuemail@email.com"
+            required>
+
+        </div>
+
+        <div>
+                <!-- PODERIA SER label OU p dessa primeira linha-->
+            <p>Tipo de Conta</p>
+
+            <input type="radio" name="conta" id="conta1" value="0">
+            <label for="conta1">Free</label>
+
+            <input type="radio" name="conta" id="conta2" value="1">
+            <label for="conta2">Basic</label>
+
+            <input type="radio" name="conta" id="conta3" value="2">
+            <label for="conta3">Unlimited</label>
+            
+            <input type="radio" name="conta" id="conta4" value="3">
+            <label for="conta4">Premium</label>
+
+        </div>
+
+
+        <div>
+            <p>Área de Interesse: </p>
+            
+                                  <!-- CHECKED JA INICIA CM ISSO MARCADO -->
+            <input type="checkbox" name="area" id="area1" value="0" checked>
+            <label for="area1">Front-End</label>
+
+            <input type="checkbox" name="area" id="area2" value="1">
+            <label for="area2">Back-End</label>
+
+            <input type="checkbox" name="area" id="area3" value="2">
+            <label for="area3">Full-Stack</label>
+
+            <input type="checkbox" name="area" id="area4" value="3">
+            <label for="area4">DevOps</label>
+
+        </div>
+            
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,188 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 16px;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+
+}
+
+
+/*////////////////////| VAR |/////////////////*/
+:root{
+    /* --bgcolor : #8a2be2; 
+    --color1 : #DDE32B;
+    --color2 : #C4C926; */
+
+    --bgcolor : #1c1c1c;
+    --bgshadow : #333;
+    --color1 : #9C5AF2;
+    --color2 : #9354E6;
+    
+}
+
+
+/*////////////////////| BODY |/////////////////*/
+
+body{
+    background-color: var(--bgcolor); 
+}
+
+
+/*////////////////////| LINK-TREE |/////////////////*/
+
+.link-tree{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+    margin: 40px auto;
+    /* gap: 25px; */
+
+}
+
+.link-tree img{
+    width: 25vh;
+    height: 25vh;
+    border-radius: 50%;
+    border: solid 0.5px var(--color1);
+    box-shadow: 0 0 1em var(--color2);
+
+}
+
+.link-tree h1{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+}
+
+.link-tree p{
+    /* background-color: aqua; */
+    /* margin-bottom: 25px; */
+    font-size: 1.4rem;
+    text-align: center;
+    min-width: 300px;
+}
+
+
+.link-tree hr{
+    /* width: 350px; */
+    min-width: 230px;
+    height: 2px;
+    background-color: var(--color2);
+    margin-top: 25px;
+    margin-bottom: 20px;
+
+}
+
+.icon{
+    font-size: 26px;
+    padding: 0;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction:row;
+}
+
+
+.icone{
+    min-width: 200px;
+    max-width: 230px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+
+.brand {
+    font-size: 40px;
+    position:relative;
+    transform:translateY(10%);
+    left: -10px;
+
+}
+
+.linkbtn {
+    padding-bottom: 15px;
+    margin: 20px 0;
+    background-color: var(--color1);
+    color: var(--bgcolor);
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border:solid 2px var(--color1);
+    border-radius: 15px;
+
+}
+
+
+.linkbtn {
+    box-shadow: inset 0 0 0.5em var(--color2),
+    0 0 0.7em var(--color1);
+}
+
+
+
+
+.linkbtn:hover {
+    background-color: var(--bgcolor);
+    color: var(--color1);
+    
+}
+
+
+
+
+
+/*////////////////////| MEDIAS |/////////////////*/
+
+@media (min-width: 400px){
+
+    .link-tree{
+        width: 40vh;
+    }
+
+    .icon{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .link-tree h1 {
+        font-size: 3rem;
+    }
+
+    .linkbtn {
+        font-size: 1.8rem;
+        padding: 15px;
+
+    }
+
+    .brand {
+        transform: translateY(10%);
+    }
+
+    .icon {
+        padding: 0;
+    }
+
+
+}
+
+
+
+
+

@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+/*************** formatações globais ***************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+
+}
+
+html {
+    font-size: 16px;
+    /*1rem*/
+}
+
+ul {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    opacity: .9;
+}
+
+
+/*************** variáveis ***************/
+
+:root {
+    --color-1: #333;
+    --color-2: #fff;
+    --color-3: #dc143c;
+}
+
+
+/*************** header ***************/
+.header-top {
+    background-color: var(--color-2);
+    width: 100%;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header-top img {
+    width: 200px;
+}
+
+.header-menu ul {
+    display: flex;
+}
+
+.header-menu li {
+    margin: 0 15px;
+}
+
+.header-menu li:first-child {
+    margin-left: 0;
+}
+
+.header-menu li:last-child {
+    margin-right: 0;
+}
+
+.header-menu a {
+    color: var(--color-1);
+    font-weight: 900;
+    font-size: 1rem;
+    transition: .5s;
+}
+
+.header-menu a:hover {
+    color: var(--color-3);
+
+}
+
+/* código limpo */
+/*************** banner ***************/
+
+.banner {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    /*esse 50% pd ser usado como center ou center center*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-2);
+    text-align: center;
+
+}
+
+.banner-tittle {
+    margin: 20 0 15px;
+    font-size: 3.1rem;
+}
+
+.banner-sub-tittle {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.banner-link {
+    margin-top: 20px;
+    background-color: var(--color-2);
+    color: var(--color-1);
+    padding: 20px 50px;
+    border-radius: 15px;
+    font-weight: 900;
+    text-transform: Capitalize;
+    font-size: 1.3rem;
+    transition: .5s;
+}
+
+.banner-link:hover {
+    background-color: var(--color-3);
+    color: var(--color-2)
+}
+
+
+
+/*************** conheca-hotel ***************/
+
+.conheca-hotel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+
+}
+
+.conheca-hotel h3 {
+    font-size: 2rem;
+    margin-bottom: 35px;
+
+}
+
+.conheca-hotel p {
+    max-width: 800px;
+    margin-bottom: 30px;
+    text-align: center;
+    line-height: 26px;
+}
+
+hr {
+    width: 200px;
+    height: 2px;
+    background-color: var(--color-1);
+    margin: 25px 0;
+}
+
+/*************** GRADE ***************/
+.grade {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.grade figure {
+    height: 350px;
+    padding: 20px;
+    border-radius: 25px;
+    background-size: cover;
+    background-position: center;
+    background-clip: content-box;
+}
+
+/*************** TAMANHO DA GRADE ***************/
+
+.pequenininha {
+    flex-basis: 25%;
+}
+
+.pequena {
+    flex-basis: 40%;
+}
+
+.grande {
+    flex-basis: 60%;
+}
+
+.grandona {
+    flex-basis: 100%;
+}
+
+/*************** IMAGENS DA GRADE ***************/
+
+.imagem1 {
+    background-image: url(../images/foto1.jpg);
+
+}
+
+.imagem2 {
+    background-image: url(../images/foto2.jpg);
+
+}
+
+.imagem3 {
+    background-image: url(../images/foto3.jpg);
+
+}
+
+.imagem4 {
+    background-image: url(../images/foto4.jpg);
+
+}
+
+.imagem5 {
+    background-image: url(../images/foto5.jpg);
+
+}
+
+.imagem6 {
+    background-image: url(../images/foto6.jpg);
+
+}
+
+.imagem7 {
+    background-image: url(../images/foto7.jpg);
+
+}
+
+.imagem8 {
+    background-image: url(../images/foto8.jpg);
+
+}
+
+.imagem9 {
+    background-image: url(../images/foto9.jpg);
+
+}
+
+
+/*************** CARACTERISTICAS ***************/
+
+.caracteristicas {
+    background-color: var(--color-1);
+    color: var(--color-2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+    text-align: center;
+
+}
+
+.caracteristicas h3 {
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.caracteristicas p {
+    max-width: 800px;
+    font-size: 1.2rem;
+    margin-bottom: 35px;
+    text-align: center;
+
+}
+
+.items {
+    width: 100%;
+    display: flex;
+    padding: 0 30px;
+    text-align: center;
+    
+}
+
+.items i{
+    font-size: 50px;
+    color: var(--color-3);
+    margin-bottom: 30px;
+
+}
+
+.items h4{
+    color: var(--color-3);
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.items p{
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
