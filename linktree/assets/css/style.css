@@ -56,7 +56,7 @@ body{
     height: 25vh;
     border-radius: 50%;
     border: solid 0.5px var(--color1);
-    box-shadow: 0 0 1em var(--color2);
+    box-shadow: 0 0 2em var(--color2);
 
 }
 
@@ -108,7 +108,7 @@ body{
 .brand {
     font-size: 40px;
     position:relative;
-    transform:translateY(10%);
+    transform:translateY(0%);
     left: -10px;
 
 }
@@ -131,8 +131,8 @@ body{
 
 
 .linkbtn {
-    box-shadow: inset 0 0 0.5em var(--color2),
-    0 0 0.7em var(--color1);
+    box-shadow: inset 0 0 1em var(--color2),
+    0 0 1em var(--color1);
 }
 
 
