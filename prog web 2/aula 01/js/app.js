@@ -2,11 +2,6 @@
 
 
 
-
-
-
-
-
 // console do browser-
 // mostra oq estamos pegando na página
 // mostra resultado de processamento
