@@ -1,8 +1,8 @@
 
 
+ 
 
-
-let nomeCompleto = 'Victor Hugo Pinto Zakimi';
+let nomeCompleto = 'Victor Hugo Pinto Zakimi' ;
 const bandaFav = 'Dreamers';
 
 console.log(nomeCompleto);
