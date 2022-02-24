@@ -17,6 +17,10 @@
 }
 
 
+html{
+    scroll-behavior: smooth;
+}
+
 /*////////////////////| VAR |/////////////////*/
 :root{
     /* --bgcolor : #8a2be2; 
