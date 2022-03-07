@@ -228,7 +228,9 @@ else {
     resultado = 'obesidade morbida'
 }
 
+
 console.log(resultado);
+
 
 
 
