@@ -83,7 +83,98 @@
             <label for="area4">DevOps</label>
 
         </div>
-            
+
+        <div>
+            <label for="">Escolaridade</label>
+            <select name="escola" id="escola">
+                <option value="0" selected disabled>Selecione uma opção</option>
+                <option value="1">Ensino Médio</option>
+                <option value="2">Ensino Superior</option>
+                <option value="3">Pós Graduação</option>
+                <option value="4">Mestrado</option>
+                <option value="5">Doutorado</option>
+                <option value="6">Outros</option>
+            </select>
+
+        </div>
+
+
+        <div>
+            <label for="arquivo">Enviar arquivo:</label>
+            <input type="file" id="arquivo" name="arquivo" required>
+        </div>
+        
+
+        <div>
+            <label for="numero">Entre com um número</label>
+            <input type="number" name="numero" id="numero" required
+            min="10" max="100" step="5">
+
+        </div>
+
+
+        <div>
+            <label for="intervalo">Selecione um valor</label>
+            <input type="range" id="intervalo" name="intervalo"
+            min="10" max="100" step="5">
+        </div>
+
+        <div>
+            <label for="cor">Selecione uma cor:</label>
+            <input type="color" name="cor" id="cor">
+        </div>
+
+
+        <div>
+            <label for="">Buscar</label>
+            <input type="search" name="busca" id="busca">
+        </div>
+
+        <div>
+            <label for="hora">Hora</label>
+            <input type="time" name="hora" id="hora">
+        </div>
+
+        <div>
+            <label for="dataHora">Selecione a data de embarque</label>
+            <input type="datetime-local" name="dataHora" id="dataHora">
+        </div>
+
+        <div>
+            <label for="mes">Mes:</label>
+            <input type="month" name="mes" id="mes">
+        </div>
+        
+        
+        <div>
+            <label for="semana">Mes:</label>
+            <input type="week" name="semana" id="semana">
+        </div>
+
+
+        <div>
+            <label for="fone">Tetlefone:</label>
+            <input type="tel" name="fone" id="fone">
+        </div>
+
+
+
+        <!-- buttons -->
+        <div>
+            <button type="button">Chamar JavaScript</button>
+            <button type="submit">Envia o Form</button>
+            <button type="reset"> Limpa o form</button>
+        </div>
+
+
+        <div>
+            <input type="button" value="JavaScript">
+            <input type="submit" value="Enviar Dados">
+            <input type="reset" value="Limpar Dados">
+        </div>
+
+
+
     </form>
 
 </body>
