@@ -65,6 +65,7 @@ body{
 
 }
 
+
 .pfp{
     width: 25vh;
     height: 25vh;
@@ -76,7 +77,7 @@ body{
 
 .link-tree h1{
     margin-top: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     font-size: 2.5rem;
 }
 
@@ -100,7 +101,7 @@ body{
 }
 
 .icon{
-    font-size: 26px;
+    font-size: 40px;
     padding: 0;
     margin-bottom: 15px;
     display: flex;
@@ -183,11 +184,10 @@ body{
     .icon{
         font-size: 30px;
         margin-bottom: 20px;
+        padding: 0;
     }
 
-    .link-tree h1 {
-        font-size: 3rem;
-    }
+
 
     .linkbtn {
         font-size: 1.8rem;
@@ -197,10 +197,6 @@ body{
 
     .brand {
         transform: translateY(0%);
-    }
-
-    .icon {
-        padding: 0;
     }
 
 
