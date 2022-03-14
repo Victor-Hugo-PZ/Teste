@@ -52,7 +52,7 @@ console.log('------------------------------------------');
 let novoSorteio = Math.round(Math.random() * 100);
 let numSorteio = 1;
 
-    while(novoSorteio != 37){
+    while(novoSorteio !== 37){
         novoSorteio = Math.round(Math.random() * 100);
         numSorteio++
     }
@@ -60,6 +60,28 @@ console.log(novoSorteio);
 console.log(`Numero de sorteios realizados: ${numSorteio}`);
 
 
+console.log('------------------------------------------');
+
+//////////////////////////  sortear pares
+
+
+
+total = 0;  // somar os valores sorteados
+
+for(let i=0; i <=9; i++){
+
+
+    let numeroSorteado = Math.round(Math.random() * 100);
+    while(numeroSorteado % 2 !== 0){
+        numeroSorteado = Math.round(Math.random() * 100);
+    }
+
+    total += numeroSorteado;
+
+    console.log(`Número sorteado = ${numeroSorteado}`);
+    
+    
+}
 
 
 
