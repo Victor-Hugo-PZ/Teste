@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Poppins',sans-serif;
+
+}
+
+
+form{
+    width: 500px;
+    background-color: #000;
+    color: #fff;
+    margin: 20px;
+    border-radius: 7px;
+    padding-bottom: 10px ;
+}
+
+h1{
+    height: 80px;
+    line-height: 80px;
+    background-color: #bd3744;
+    border-radius: 7px 7px 0 0;
+    text-align: center;
+    background-image: url(../images/foto.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+
+
+h3{
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    margin: 10px 20px;
+
+}
+
+p{
+    margin: 20px;
+}
+
+
+.dados, .tipo, .mensagem {
+    width: 100%;
+    height: 50px;
+    border-radius: 7px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    border: 0;
+    outline: 0;
+    padding-left: 60px;
+    background-repeat: no-repeat;
+    background-position: 15px center;
+
+}
+
+
+.usuario {background-image: url(../images/usuario.png);}
+
+.email {background-image: url(../images/email.png);}
+
+.tipo {
+    padding-left: 15px;
+}
+
+.mensagem {
+    padding-left: 15px;
+    padding-top: 5px;
+    height: 150px;
+    resize: none;
+}
+
+.enviar{
+    width: 150px;
+    height: 50px;
+    border-radius: 7px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    background-color: #bd3744;
+    color: #fff;
+    border: 0;
+
+
+}
+
+.flex{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.dados:focus,
+.tipo:focus,
+.mensagem:focus {
+    border: 2px solid #bd3744;
+}
+
+
+
+
