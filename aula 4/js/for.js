@@ -80,10 +80,23 @@ for(let i=0; i <=9; i++){
 
     console.log(`Número sorteado = ${numeroSorteado}`);
     
-    
 }
 
+console.log('------------------------------------------');
 
+
+//////////////////////////  DO WHILE
+
+// Esse i é uma variavel com escopo global
+
+let i = 0;
+
+do{
+    console.log(`valor de i ${i}`);
+    i++
+
+} 
+while (i <= 10);
 
 
 
